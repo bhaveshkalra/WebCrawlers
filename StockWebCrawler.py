@@ -33,3 +33,5 @@ end=m.start()
 
 final=string2[0:end]
 print("The value of stock of "+stock.upper()+" is:\n" + final)
+
+##Working for only FB stocks particularly as there is some problem with url

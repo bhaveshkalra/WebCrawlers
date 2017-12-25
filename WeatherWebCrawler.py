@@ -26,6 +26,7 @@ for i in range(0,20):
     end=m.start()-1
 
     final=string1[0:end]
+    final=final.replace('&deg;C','degC')
     print("The details of the weather of "+city.capitalize() +" are:\n"+final+"\n\n\n\n")
 
     choice=input("Do you wish to continue and check for other cities:(Yes/No)")
